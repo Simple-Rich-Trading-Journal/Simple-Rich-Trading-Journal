@@ -1,0 +1,21 @@
+proc = "\x1b[33m[ proc ]\x1b[m"
+quiet = "[ quiet ]"
+server_proc = "\x1b[32m[ serv ]\x1b[m"
+ping = "\x1b[33m[ ping ]\x1b[m"
+main_proc = "\x1b[32m[ main ]\x1b[m"
+kill = "\x1b[31m[ kill ]\x1b[m"
+term = "\x1b[31m[ term ]\x1b[m"
+ping_fail = "\x1b[31m[ !404 ]\x1b[m"
+call_gui = "\x1b[32m[ *gui ]\x1b[m"
+
+install = "[ install ]"
+upgrade = "[ upgrade ]"
+
+profile_make = "[ make ]"
+profile_load = "[ load ]"
+profile_init = "[ init ]"
+cmdl = "[ cmdl ]"
+demo_init = "[ init ]"
+cleaner = "[ Clnr ]"
+
+error = "\x1b[31m[ ERROR ]\x1b[m"

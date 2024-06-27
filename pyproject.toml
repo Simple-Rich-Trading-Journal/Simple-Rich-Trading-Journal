@@ -1,0 +1,60 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "SimpleRichTradingJournal"
+authors = [
+    {name = "Adrian F. Hoefflin", email = "srccircumflex-srtj@outlook.com"},
+]
+description = "Rich Trading Journal"
+readme = {file = "README.rst", content-type = "text/x-rst"}
+requires-python = ">=3.10"
+keywords = [
+    "trading", "trading journal", "trading log", "trading protocol",
+    "finance", "finance journal", "finance log", "finance protocol"
+]
+license = {text = "CC BY-NC-ND 4.0"}
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Environment :: Web Environment",
+    "Framework :: Dash",
+    "Intended Audience :: Developers",
+    "Intended Audience :: End Users/Desktop",
+    "Intended Audience :: Financial and Insurance Industry",
+    "License :: Free for non-commercial use",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Database",
+]
+dependencies = [
+    "plotly~=5.18.0",
+    "dash~=2.16.1",
+    "numpy~=1.26.3",
+    "dash_ag_grid~=31.0.1",
+]
+dynamic = ["version"]
+
+[tool.setuptools.dynamic]
+version = {attr = "SimpleRichTradingJournal.__version__"}
+
+[project.scripts]
+srtj = "SimpleRichTradingJournal.main:run"
+
+# [project.gui-scripts]
+# srtj = "SimpleRichTradingJournal.main:run"
+
+# [project.optional-dependencies]
+# gui = ["PyQt6"]
+
+[project.urls]
+Homepage = "https://simple-rich-trading-journal.github.io"
+Documentation = "https://simple-rich-trading-journal.github.io"
+Repository = "https://github.com/Simple-Rich-Trading-Journal/Simple-Rich-Trading-Journal"
+Issues = "https://github.com/Simple-Rich-Trading-Journal/Simple-Rich-Trading-Journal/issues"
+Changelog = "https://github.com/Simple-Rich-Trading-Journal/Simple-Rich-Trading-Journal#version-history"

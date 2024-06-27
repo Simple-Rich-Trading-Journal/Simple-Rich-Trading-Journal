@@ -1,0 +1,140 @@
+/* sidebar resize > */
+:root{
+    --handle-x: 0px;
+    --handle-xi: 0px;
+}
+.container-divs{
+}
+.row-divs{
+    display: flex ;
+    width: 100% ;
+}
+.col-div{
+    display: inline-block;
+}
+.border-div{
+}
+/* < sidebar resize */
+
+/* drag and drop > */
+.gu-mirror {
+    position: fixed !important;
+    margin: 0 !important;
+    z-index: 9999 !important;
+    opacity: 0.8;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    filter: alpha(opacity=80);
+}
+.gu-hide {
+  display: none !important;
+}
+.gu-unselectable {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+.gu-transit {
+  opacity: 0.2;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+  filter: alpha(opacity=20);
+}
+/* < drag and drop */
+
+/* size slider > */
+.nopadding {
+    padding: 0px !important;
+}
+/* < size slider */
+
+/* date select > */
+.DateInput_input {
+  font-size: 13px;
+  line-height: 0px;
+  color: #484848;
+  background-color: #fff;
+  width: 100%;
+  padding: 0px 7px 0px 7px;
+  border: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 2px solid transparent;
+  border-left: 0;
+  border-radius: 0
+}
+/* < date select */
+
+/* data table > */
+.dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner tr {
+  min-height: 0px !important;
+  height: 0px !important;
+}
+/* < data table */
+
+/* misc > */
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+.fill-available-width {
+    width: -moz-available;          /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
+}
+:root{
+    overflow: hidden;
+}
+/* < misc */
+
+/* autocomplete > */
+.autocdropdown > .Select-control {
+	height: 0px !important;
+	font-size: 0px !important;
+	overflow: hidden;
+}
+.autocdropdown > .Select-control > .Select-multi-value-wrapper > .Select-input {
+	height: 0px !important;
+	font-size: 0px !important;
+}
+.autocdropdown > .Select-menu-outer {
+    font-size: 13px;
+    color: #8f8f8f;
+    font-weight: bold;
+    border: 2px solid;
+}
+/* < autocomplete */
+
+/* noteeditor > */
+div.CodeMirror span.CodeMirror-matchingbracket {
+    color: red;
+    font-weight: bold;
+    text-decoration: underline black;
+    background: #1c1c1c24;
+}
+/* < noteeditor */
+
+/* slider > */
+.rc-slider-track {
+    background-color: #00afff;
+}
+.rc-slider-mark-text {
+    color: #999 !important;
+    font-weight: bold;
+}
+/* < slider */
+
+/* md > */
+blockquote {
+  border-left: 4px #1ea1ae solid;
+  background-color: #201d1d33;
+  padding: 1rem;
+}
+/* < md */

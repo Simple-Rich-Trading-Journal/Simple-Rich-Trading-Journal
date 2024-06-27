@@ -1,0 +1,66 @@
+###################################################################################
+#                                                                                 #
+# This configuration file makes it possible to define a command that is executed  #
+# when srtj is started and to which the url of the srtj-server is passed.         #
+#                                                                                 #
+# Lines whose first character is a `#' are ignored.                               #
+#                                                                                 #
+# The main section is `[start]'. The program name is defined under this,          #
+# for example `firefox'.                                                          #
+# Constants that can be passed instead of a program name:                         #
+#     `*none'   : do not execute a program                                        #
+#     `*pop'    : open a tab in the system default browser                        #
+# By default, the url is passed to the program as a positional argument at the    #
+# first position (like "firefox http://127.0.0.1:8050/" in the command line).     #
+# But see the next paragraph!                                                     #
+#                                                                                 #
+# In addition, an optional section with pattern `[start.<program>.params]' can be #
+# defined, e.g. `[start.firefox.params]'.                                         #
+# If this section is present, the place of the url must be defined here!          #
+# The command line parameters for the program are defined in this section.        #
+# Placeholders are permitted in this section: `{<key>}'.                          #
+# Permitted keys are:                                                             #
+#  `*url'           : the url to the server (must be defined here)                #
+#  `*profile-root'  : the file path to the profile folder                         #
+#  `*user-home'     : the file path to the user home directory                    #
+# and all names from `rconfig.py'.                                                #
+#                                                                                 #
+###################################################################################
+
+
+[start]
+
+  # *pop
+  # *none
+
+  # firefox
+  # chromium
+  # showcase
+
+  *pop
+
+###################################################################################
+#                                                                                 #
+# The following section parameterizes the ShowCase Browser (v3) for srtj when it  #
+# is used.                                                                        #
+#                                                                                 #
+# https://github.com/srccircumflex/ShowCase-Browser                               #
+# https://pypi.org/project/showcase-browser/                                      #
+#                                                                                 #
+# pip install showcase-browser --upgrade                                          #
+#                                                                                 #
+###################################################################################
+
+[start.showcase.params]
+
+  {*url}
+
+  --ks-refresh Ctrl+R
+
+  --window-title "Simple Rich Trading Journal"
+  --window-icon {*profile-root}/files/.icon256.png
+  --window-maxsize
+
+  --link-target browser
+  --javascript
+  --no-scrollbars
