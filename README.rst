@@ -353,16 +353,16 @@ Time specification
 - The time entries in the *InvestTime* and *TakeTime* columns are parsed automatically and
   can be entered according to the following patterns:
 
-    | ``[MM]``
-    | ``[hh][MM]``
-    | ``[dd][HH][MM]``
-    | ``[dd][mm][HH][MM]``
-    | ``[dd][mm][yy][HH][MM]``
+    | ``[mm]``
+    | ``[hh][mm]``
+    | ``[DD][hh][mm]``
+    | ``[DD][MM][hh][mm]``
+    | ``[DD][MM][YY][hh][mm]``
 
     With the exception of the last field from the left, all fields must have two digits.
-    Characters from ``[ .,:/-]`` are allowed between the fields but are not required. If fields
+    Characters from `` .,:/-`` are allowed between the fields but are not required. If fields
     are omitted, they are filled from the current date. To apply the current date in full,
-    a character from ``[n#0]`` can be entered.
+    a character from ``n#0`` can be entered.
 
 Amount Calculation
 ------------------

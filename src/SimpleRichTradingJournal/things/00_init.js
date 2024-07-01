@@ -10,7 +10,6 @@ function dispatch_event (ele) {
 
 function setter (ele, val) {
     __setter.call(ele, val)
-    var client_event = new Event('input', { bubbles: true })
     dispatch_event(ele)
 }
 
