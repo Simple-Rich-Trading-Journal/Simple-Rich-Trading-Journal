@@ -228,8 +228,8 @@ class _Balance:
                 first_date = first_record._min_date
                 first_year = first_date.year
                 this_year = this_date.year
-                first_quarter = (first_date.month - (first_date.month % 3)) + 1
-                this_quarter = (this_date.month - (this_date.month % 3)) + 1
+                first_quarter = (first_date.month - 1) // 3 * 3 + 1
+                this_quarter = (this_date.month - 1) // 3 * 3 + 1
 
                 if first_year == this_year:
                     for mo in range(first_quarter, this_quarter, 3):

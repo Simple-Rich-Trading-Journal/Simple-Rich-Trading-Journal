@@ -161,10 +161,8 @@ cython_debug/
 
 
 
+.note
 .notes/
 .doc/
 .test/
 .utils/
-
-src/SimpleRichTradingJournal/things/assets/.misc.js
-src/SimpleRichTradingJournal/things/assets/.misc.css

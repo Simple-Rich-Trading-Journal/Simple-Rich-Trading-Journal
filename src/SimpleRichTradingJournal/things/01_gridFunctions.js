@@ -150,6 +150,8 @@ dagfuncs.calc = (cellValue) => {
             if (value.match(swgr)) {
                 value = value.replaceAll(".", "");
                 value = value.replaceAll(",", ".");
+            } else {
+                value = value.replaceAll(",", "");
             }
             return eval(value);
         } else {

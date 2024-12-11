@@ -27,7 +27,7 @@ This work is licensed under `CC BY-NC-ND 4.0`_.
 Development Status
 ******************
 
-    0.6.1 #2  (`current note`_)
+    0.6.2 #1  (`current note`_)
 
 ``srtj`` will be released in beta status until the functionality of all features has been confirmed.
 This means that the code may change significantly in the future and the functionality of all
