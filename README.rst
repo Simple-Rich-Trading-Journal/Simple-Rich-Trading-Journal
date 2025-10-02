@@ -1,3 +1,4 @@
+.. image:: https://img.shields.io/badge/build-discontinued-red
 
 .. figure:: https://raw.githubusercontent.com/Simple-Rich-Trading-Journal/docs/main/srtj-main/Banner400.png
     :align: center
@@ -27,16 +28,12 @@ This work is licensed under `CC BY-NC-ND 4.0`_.
 Development Status
 ******************
 
-    0.6.2 #1  (`current note`_)
+    0.6.2 #2  (`current note`_)
 
-``srtj`` will be released in beta status until the functionality of all features has been confirmed.
-This means that the code may change significantly in the future and the functionality of all
-features is not guaranteed.
+.. image:: https://img.shields.io/badge/build-discontinued-red
 
-``srtj`` is being developed under linux, tests under windows are still pending.
 
-**Bug reports, feature requests, ideas or questions?**
-    Create an issue or write me a message to `srccircumflex-srtj@outlook.com`_.
+**srtj is currently not being further developed or maintained by its creator and remains in beta status (no official release)**
 
 
 Table of Contents

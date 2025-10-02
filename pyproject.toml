@@ -35,8 +35,8 @@ classifiers = [
 dependencies = [
     "plotly>=5.18.0",
     "dash>=2.16.1",
-    "numpy>=1.26.3",
     "dash_ag_grid>=31.0.1",
+    "numpy>=1.26.3",
 ]
 dynamic = ["version"]
 

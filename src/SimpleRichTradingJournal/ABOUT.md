@@ -4,38 +4,15 @@
 
 **v{version}**
 
+![](https://img.shields.io/badge/build-discontinued-red)
+
+> **srtj is currently not being further developed or maintained by its creator and remains in beta status (no official release)**
+
+---
+
 {update_header}
 
 {update_note}
-
----
-
-For the simple maintenance of your portfolio, 
-for a rich analysis of your successes, 
-intuitive and free. 
-That's **Simple Rich Trading Journal**!
-
----
-
-###### Support srtj in its evolution !
-
-Test `srtj` in general, the various functions, combinations 
-of configurations and in environments and share your experiences.
-
-Have you implemented a 
-[plugin](https://github.com/Simple-Rich-Trading-Journal/Simple-Rich-Trading-Journal/blob/master/src/SimpleRichTradingJournal/__env__/plugin.py)? 
-Follow the idea of open source and share your code 
-(make sure to use placeholders for keys, login or other personal data).
-
-Other thoughts on `srtj`? Any feedback is welcome!
-
-Share your report in a private message to 
-**[srccircumflex-srtj@outlook.com](mailto:srccircumflex-srtj@outlook.com)**, 
-create an 
-**[Issue](https://github.com/Simple-Rich-Trading-Journal/Simple-Rich-Trading-Journal/issues)** 
-or open a 
-**[Discussion](https://github.com/Simple-Rich-Trading-Journal/Simple-Rich-Trading-Journal/discussions)**, 
-depending on the type. 
 
 ---
 

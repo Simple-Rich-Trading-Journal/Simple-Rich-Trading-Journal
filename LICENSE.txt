@@ -1,3 +1,8 @@
+CC Licence
+
+Copyright (c) 2024-2025 Adrian F. Hoefflin [srccircumflex]
+
+
 Attribution-NonCommercial-NoDerivatives 4.0 International
 
 =======================================================================

@@ -1,7 +1,9 @@
-version 0.6.2 fixes a bug in the calculation of the balance section that occurs when the current quarter is 4
+### Information
+
+![](https://img.shields.io/badge/build-discontinued-red)
+
+> **srtj is currently not being further developed or maintained by its creator and remains in beta status (no official release)**
 
 ```
 pip install SimpleRichTradingJournal --upgrade
 ```
-
----
